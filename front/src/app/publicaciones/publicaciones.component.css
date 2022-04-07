@@ -1,0 +1,60 @@
+.card{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 20%;
+    color: rgb(20, 20, 46);
+    font-style: oblique;
+    width: 62.5rem;
+    box-shadow: 0 0 6px rgba(0,0,0,.4);
+  }
+  .card:hover{
+    transform: scale3d(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+    transition-delay: .1s;
+  }
+  .encabezado{
+    background:rgb(28, 28, 83);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+  .encabezado:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,.10),0 4px 8px rgba(0, 0, 0, 0.6);
+    background:rgb(28, 28, 83);
+  }
+  .cerrar{
+    box-shadow: 0 10px 20px rgba(0,0,0,.10),0 4px 8px rgba(0, 0, 0, 0.08);
+    background:rgb(199, 46, 46);
+    margin-left: 113%;
+    border: 3px;
+    border-radius:3px;
+  }
+  .cerrar:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1),0 4px 8px rgba(255, 255, 255, 0.6);
+    background:rgb(199, 46, 46);
+    
+  }
+  .user{
+    box-shadow: 0 10px 20px rgba(0,0,0,.10),0 4px 8px rgba(0, 0, 0, 0.08);
+    background:rgb(199, 46, 46);
+    margin-left: 5%;
+    border: 3px;
+    border-radius:3px;
+    width: 10%;
+  }
+  .user:hover{
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1),0 4px 8px rgba(255, 255, 255, 0.6);
+    background:rgb(199, 46, 46);
+    
+  }
+  .userc{
+    box-shadow: 0 10px 20px rgb(28, 28, 83),0 4px 8px rgb(28, 28, 83);
+    background:rgb(28, 28, 83);
+    color:rgb(255, 255, 255);
+    margin-left: 100%;
+    border: 3px;
+    border-radius:3px;
+    width: 10%;
+  }
+  .grupobotones{
+    display: inline-flex;
+    width: 40%;
+  }
